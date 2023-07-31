@@ -1,0 +1,119 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.countdown-container {
+  min-width: 1100px;
+  min-height: 500px;
+  margin: 50px auto;
+  background-color: #2f87ebb7;
+  box-shadow: 10px 10px 20px 20px #2600ff80;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: center;
+  border-radius: 5px;
+}
+.countdown-container h1{
+  color: white;
+  text-shadow: 2px 2px 8px;
+}
+
+.countdown-values {
+  display: flex;
+  text-shadow: 2px 2px 8px;
+  /* color: #809bfd; */
+  color: white;
+}
+.countdown-span{
+  display: flex;
+  font-weight: bold;
+  font-size: 7rem;
+  line-height: 1;
+  margin: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.big-text {
+  font-weight: bold;
+  font-size: 7rem;
+  line-height: 1;
+  margin: 10px; 
+}
+
+.countdown-value {
+  width: 120px;
+  margin: 10px 20px;
+  text-align: center;
+}
+
+.countdown-value span {
+  font-size: 1.3rem;
+}
+
+.countdown-input {
+  padding: 9px;
+  font-size: 19px;
+  border-width: 0px;
+  background-color: #fff;
+  color: black;
+  border-style: solid;
+  border-radius: 7px;
+  box-shadow: 0px 0px 3px rgb(66, 66, 66, 0.55);
+}
+
+.countdown-btn{
+  background-color: #2600ff80;
+  color: white;
+  border-color: #568af5;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid #2600ff80;
+  border-radius: 7px;
+  padding: 10px 50px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.countdown-btn:hover{
+  color: #fff;
+  background-color: #809bfd;
+}
+
+.countdown-input-btn{
+  width: 35%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-sizing: border-box;
+  position: relative;
+  top: 120px;
+}
+
+.clock-div{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-self: flex-start;
+}
+
+.clock-div span{
+  color: white;
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 0.3;
+  margin: 10px;
+  text-shadow: 2px 2px 8px;
+}
